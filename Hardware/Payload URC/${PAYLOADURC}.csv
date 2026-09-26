@@ -3,7 +3,7 @@
 "C3,C6,C7","3","0.1u","","","","SCRB_STD_Passives:C0402",""
 "C4,C17,C18,C26","4","0.1u","","","","SCRB_STD_Passives:C0805",""
 "C8","1","4.7u","","","","SCRB_STD_Passives:C0603",""
-"C10,C13","2","12pF","","","","SCRB_STD_Passives:C0805",""
+"C10,C13","2","12p","","","","SCRB_STD_Passives:C0805",""
 "C11,C22","2","2.2u","","","","SCRB_STD_Passives:C0805",""
 "C19","1","2.7p","","","","SCRB_STD_Passives:C0805",""
 "D1","1","DS178_LUXEON_UV_U_Line_405nm","","","","LED_SMD:LED_Cree-XP",""

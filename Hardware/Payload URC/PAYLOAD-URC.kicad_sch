@@ -5677,7 +5677,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "12p"
 			(at 225.6016 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +6557,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "12p"
 			(at 225.6016 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
