@@ -1,0 +1,744 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cfb53c73-8aa0-4cfd-bef1-1d579723c02d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SCRB_STD_Passives:R0805"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.286 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R0805"
+				(at 1.524 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SCRB_STD_Passives:R0805"
+				(at 0 -13.716 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD resistor"
+				(at 0.254 -11.684 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Precision" "1%"
+				(at 1.524 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R0805_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R0805_1_1"
+				(text "0805"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 67.31 86.36)
+		(end 106.68 123.19)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b43be946-9119-43bc-839c-7c0ee15a0054")
+	)
+	(text "***Though these pull-up resistors are on a separate sheet, they should be place as close to MCU pins as possible***"
+		(exclude_from_sim no)
+		(at 83.058 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08e86925-885e-4456-9b6f-dfc3a7bddc7c")
+	)
+	(text "Interface between MCU and the vibrator circuit"
+		(exclude_from_sim no)
+		(at 139.7 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0c936ad-e9e5-4875-92f2-484cbada1723")
+	)
+	(text "Connects to STM32 pins"
+		(exclude_from_sim no)
+		(at 87.122 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7d5647e-578d-4bfd-9562-06548f0a1ecc")
+	)
+	(junction
+		(at 130.81 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8e6739d-e7ca-4c4b-89f7-a8c011fd91db")
+	)
+	(junction
+		(at 113.03 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaa529b0-1de0-4421-92ee-57a9709f8763")
+	)
+	(wire
+		(pts
+			(xy 90.17 109.22) (xy 130.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01560297-151f-4843-b0d1-9ea9a5540392")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b8265e-3c27-441d-b624-c2f5e705be66")
+	)
+	(wire
+		(pts
+			(xy 113.03 85.09) (xy 113.03 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0833f21a-7f33-4cb2-9798-42a275616ff8")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 162.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da1c813-45a1-41fe-af61-a23b54ba337f")
+	)
+	(wire
+		(pts
+			(xy 207.01 109.22) (xy 212.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2ed6cf-e7d0-49c5-bbe8-d25a693c0483")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fea5017-9a9e-461b-912e-17f9b3a949cb")
+	)
+	(wire
+		(pts
+			(xy 130.81 68.58) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d9b41f6-21f6-4c41-8bb2-1619c5c90350")
+	)
+	(wire
+		(pts
+			(xy 212.09 68.58) (xy 212.09 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b98179b-ac37-4653-817f-8ec75879bc8e")
+	)
+	(wire
+		(pts
+			(xy 113.03 68.58) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862e8dca-e4fc-46a2-9682-c2d36a778dc8")
+	)
+	(wire
+		(pts
+			(xy 130.81 109.22) (xy 177.8 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98394ad3-2e3d-44f6-bbbb-735f61b13222")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1ce582-130a-4a4b-8579-1a578b20ddbe")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 130.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b32eb9-4016-4f5a-8f56-89e2f740dd20")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 177.8 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e759d1b9-be50-4fbf-9901-7af600f8fdf6")
+	)
+	(label "I2C1_SCL"
+		(at 152.4 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a74cb52-4aab-49cc-b953-a482a88b66bf")
+	)
+	(label "I2C1_SDA"
+		(at 152.4 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efbcebf0-4e3b-4f97-b32a-995682a64b0c")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 212.09 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f1c0e20-7254-4526-b09b-46848adc4502")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 113.03 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3089010-cf44-4762-9c35-9e3e45f2035f")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 130.81 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcf88e9c-ae65-4eba-bb68-0fdef4d5b4af")
+	)
+	(hierarchical_label "I2C1_SCL"
+		(shape input)
+		(at 90.17 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e06e0c9b-0086-45c6-9d19-89e68db6aa9c")
+	)
+	(hierarchical_label "I2C1_SDA"
+		(shape input)
+		(at 90.17 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed8f1a3f-2f15-4573-ad96-652b943c6441")
+	)
+	(hierarchical_label "GPIO1"
+		(shape input)
+		(at 90.17 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9bb9b0e-c34c-4a21-b25c-23fd2fad6ec8")
+	)
+	(symbol
+		(lib_id "SCRB_STD_Passives:R0805")
+		(at 130.81 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e64355f-9984-4b2a-b806-9a296f0bb7be")
+		(property "Reference" "R47"
+			(at 133.35 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 133.35 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Passives:R0805"
+			(at 130.81 87.884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD resistor"
+			(at 130.556 89.916 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Precision" "1%"
+			(at 133.35 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 130.81 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 130.81 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e126a79-aac8-45cc-a1c0-9437f3437d90")
+		)
+		(pin "1"
+			(uuid "9ec122c6-e2fd-4270-a4be-cd77cf8f9c89")
+		)
+		(instances
+			(project "PAYLOAD-URC"
+				(path "/536101af-7462-4550-960d-41c0e5530942/d53a3fe0-cf14-46e5-83f4-5974ff42168d"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCRB_STD_Passives:R0805")
+		(at 113.03 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff9246c2-cf84-4ef9-b7c9-83c2638ace8a")
+		(property "Reference" "R46"
+			(at 115.57 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 115.57 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Passives:R0805"
+			(at 113.03 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD resistor"
+			(at 112.776 69.596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Precision" "1%"
+			(at 115.57 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 113.03 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 113.03 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d399c806-1a56-450e-97b7-9b54f5ac4363")
+		)
+		(pin "1"
+			(uuid "0ac1decb-b3ee-40e9-8af5-2dda046fe2da")
+		)
+		(instances
+			(project "PAYLOAD-URC"
+				(path "/536101af-7462-4550-960d-41c0e5530942/d53a3fe0-cf14-46e5-83f4-5974ff42168d"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 101.6)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "64a16d29-9a09-4ff1-9e24-46115c76655c")
+		(property "Sheetname" "ultrasonic_vibrator"
+			(at 177.8 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ultrasonic_vibrator.kicad_sch"
+			(at 177.8 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL" input
+			(at 177.8 106.68 180)
+			(uuid "0e2fd0a1-e66b-49c6-8cf2-818c9d1bae32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA" input
+			(at 177.8 109.22 180)
+			(uuid "816b5acf-b6eb-4fcc-8189-e7f8eb74a96b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB:10_GPIO " input
+			(at 177.8 111.76 180)
+			(uuid "0a7541d9-4868-4e74-b4fe-6fb12386c4db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" input
+			(at 207.01 109.22 0)
+			(uuid "a65dbdd4-ac83-4590-9af6-69b98ba3d986")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PAYLOAD-URC"
+				(path "/536101af-7462-4550-960d-41c0e5530942/d53a3fe0-cf14-46e5-83f4-5974ff42168d"
+					(page "7")
+				)
+			)
+		)
+	)
+)
