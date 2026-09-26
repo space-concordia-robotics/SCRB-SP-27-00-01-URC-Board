@@ -799,15 +799,13 @@
 		(at 167.64 54.61)
 		(uuid "e59129ea-6c39-4687-b98b-1d493a4057aa")
 	)
-	(wire
-		(pts
-			(xy 124.46 64.77) (xy 137.16 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03d04cbc-e606-41e4-a0bb-98c5a26b9c05")
+	(no_connect
+		(at 137.16 69.85)
+		(uuid "e895bce4-f509-4ab2-ad2e-63f75090e347")
+	)
+	(no_connect
+		(at 137.16 64.77)
+		(uuid "fe594e9e-a252-4102-ab28-5bca12b2693d")
 	)
 	(wire
 		(pts
@@ -851,16 +849,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 137.16 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c007224f-e5af-4c4b-8b69-1b759aaf4176")
-	)
-	(wire
-		(pts
 			(xy 123.19 54.61) (xy 137.16 54.61)
 		)
 		(stroke
@@ -889,17 +877,6 @@
 		)
 		(uuid "e95fec19-2aa4-4fdb-bfe2-5bbff8210b7f")
 	)
-	(hierarchical_label "NRST"
-		(shape input)
-		(at 81.28 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13c31d11-f592-49ce-a343-50a59920c785")
-	)
 	(hierarchical_label "JTCK-SWCLK"
 		(shape input)
 		(at 80.01 63.5 0)
@@ -911,28 +888,6 @@
 		)
 		(uuid "321a3986-da43-4073-850e-2f8cded9c189")
 	)
-	(hierarchical_label "NRST"
-		(shape input)
-		(at 124.46 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "54a68939-ee83-4205-bd19-618bcd3947dd")
-	)
-	(hierarchical_label "JTDO-SWO"
-		(shape input)
-		(at 81.28 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d4a2895-6090-4290-828a-11f9626dfa9a")
-	)
 	(hierarchical_label "JTMS-SWDIO"
 		(shape input)
 		(at 80.01 60.96 0)
@@ -943,17 +898,6 @@
 			(justify left)
 		)
 		(uuid "75d77ac3-5994-4f88-aab3-dbd75300cebf")
-	)
-	(hierarchical_label "JTDO-SWO"
-		(shape input)
-		(at 124.46 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b3fad90-25ba-4e6a-86f2-46cb6ac63a02")
 	)
 	(hierarchical_label "JTMS-SWDIO"
 		(shape input)

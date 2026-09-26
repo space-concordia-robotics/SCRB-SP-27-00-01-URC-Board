@@ -448,7 +448,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7kΩ"
+		(property "Value" "4.7k"
 			(at 133.35 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -563,7 +563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7kΩ"
+		(property "Value" "4.7k"
 			(at 115.57 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)

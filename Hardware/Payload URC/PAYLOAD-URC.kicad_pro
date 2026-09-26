@@ -737,6 +737,18 @@
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Load capacitance",
+          "name": "Load capacitance",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -795,7 +807,7 @@
         "uuid": "536101af-7462-4550-960d-41c0e5530942"
       }
     ],
-    "used_designators": "#FLG2-3,#FLG8,Y1,U4,U6,U9-10,C1-26,#PWR4-6,#PWR19-22,#PWR25,#PWR28,#PWR39-41,J1,J6,J8-9,R1-2,R8,R11,R17,R20-21,R24,R28-47",
+    "used_designators": "SW2,D3,C1-26,#PWR4-6,#PWR19-22,#PWR25,#PWR28,#PWR37-42,#FLG2-3,#FLG8-9,U4,U6,U9-10,Y1,J1,J4,J6-9,LD1-4,R1-4,R8,R11,R17,R20-21,R24,R28-47",
     "variants": []
   },
   "sheets": [

@@ -1562,7 +1562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "SCRB_Connectors:JST-GH-SM04B-GHS-TB"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -1654,7 +1654,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 109.22 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2053,7 +2053,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 46.99 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2256,7 +2256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "SCRB_Connectors:JST-GH-SM04B-GHS-TB"
 			(at 63.5 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2426,7 +2426,7 @@
 				)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 39.37 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +2539,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 115.57 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2754,7 +2754,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 125.73 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,7 +3266,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100Ω"
+		(property "Value" "100"
 			(at 57.15 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
