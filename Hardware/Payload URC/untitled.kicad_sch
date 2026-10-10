@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "484abb1c-9ec5-4b78-9d48-26575d84a969")
-	(paper "A5")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -128,10 +128,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -141,7 +138,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
+			(property "Reference" "J"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -151,8 +148,8 @@
 					)
 				)
 			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -183,7 +180,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -194,7 +191,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -205,7 +202,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LED diode"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -216,84 +213,44 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "LED_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -309,9 +266,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -910,8 +867,8 @@
 		)
 	)
 	(rectangle
-		(start 13.97 13.97)
-		(end 74.93 90.17)
+		(start 35.56 24.13)
+		(end 111.76 130.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -922,8 +879,8 @@
 		(uuid "2b201a6e-45e7-44b5-93fb-071cbae7b625")
 	)
 	(rectangle
-		(start 80.01 13.97)
-		(end 143.51 88.9)
+		(start 119.38 24.13)
+		(end 213.36 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -935,7 +892,7 @@
 	)
 	(text "LUXEON TX (L1T2) Package: 3.70 mm x 3.70 mm \n0.50 mm width x 3.30 mm height Anode / Cathode Pads\n1.30 mm width x 3.30 mm height Center Thermal Pad \n2.80 mm spacing Pad 1 to Pad 2 Center Pitch"
 		(exclude_from_sim no)
-		(at 42.672 99.314 0)
+		(at 89.662 137.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -945,7 +902,7 @@
 	)
 	(text "R3/R6 calculations"
 		(exclude_from_sim no)
-		(at 155.194 16.256 0)
+		(at 226.06 31.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -953,19 +910,9 @@
 		)
 		(uuid "8ee08e6d-35e1-4296-a2c4-e17168aeeb11")
 	)
-	(text "405 nm LED"
-		(exclude_from_sim no)
-		(at 41.402 17.018 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a53ba3c2-5461-4eaf-9761-f1330f7dcdad")
-	)
 	(text "LED_SMD:LED_Cree-XP Footprint\n3.45 mm x 3.45 mm (Outer boundary)\n0.50 mm width x 3.30 mm height Anode / Cathode Pads \n1.30 mm width x 3.30 mm height Center Thermal Pad\n2.80 mm spacing (Centered at ±1.40 mm) Pad 1 to Pad 2 Center Pitch"
 		(exclude_from_sim no)
-		(at 44.958 116.078 0)
+		(at 91.948 154.178 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -975,7 +922,7 @@
 	)
 	(text "Forward current datasheet: max 1000mA, \nmeaning max brightness \noccurs when forward current = 1000mA\nForward current chosen for safety/thermal \nconsiderations (LEDs get hot) = 500mA\nForward voltage datasheet: 2.7V-3.6V\n\nFormula 1)\nSupply voltage >= LED forward voltage + \nvoltage needed by current-limiting resistor\nSo we set supply voltage at 4V, not 3V3, \nbecause max forward voltage is 3.6V. \nThat leaves 0.4V for resistor. \n\nFormula 2)\nR=(V supply - V forward)/I forward\n\nTwo cases for R:\n1. Rmin = (4V-3.6V)/500mA\nRmin= 0.8 ohms\n\n2. Rmax=(4V-2.7V)/500mA\nRmax= 2.6 ohms\n\nIf we want max current to be 500mA, we need \nto be <=500mA. Current is max \nwhen Vf= 2.7V. So we choose R=2.6 ohms "
 		(exclude_from_sim no)
-		(at 145.542 46.482 0)
+		(at 216.408 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -986,7 +933,7 @@
 	)
 	(text "Why 4V supply voltage :\n\nForward voltage datasheet: 2.7V-3.6V\n\nFormula 1)\nSupply voltage >= LED forward voltage + voltage needed by \ncurrent-limiting (drain) resistor\nSo we set supply voltage at 4V, not 3V3, \nbecause max forward voltage is 3.6V. That leaves 0.4V for resistor. "
 		(exclude_from_sim no)
-		(at 145.542 86.106 0)
+		(at 216.408 101.092 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -995,19 +942,9 @@
 		)
 		(uuid "eb1f223e-10d0-4eb6-a8b1-74707292b968")
 	)
-	(text "445 nm LED"
-		(exclude_from_sim no)
-		(at 111.76 16.256 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f93b1fc6-8920-41fb-a36e-711aa925621c")
-	)
 	(text "Calculate power dissipation P=I^2R\n\nFor R28, R29, dissipation power is the same\nP= (0.5A)^2*10 ohms\nP=2.5W for each"
 		(exclude_from_sim no)
-		(at 44.45 129.286 0)
+		(at 91.44 167.386 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1016,32 +953,32 @@
 		(uuid "fab69f65-52d9-4dd5-b2ce-cde5320ec54f")
 	)
 	(junction
-		(at 48.26 66.04)
+		(at 76.2 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76696114-2d97-4d32-ae56-14118f7ad15b")
 	)
 	(junction
-		(at 114.3 66.04)
+		(at 161.29 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c3ea9cd-89ef-4a13-b288-681010b09847")
 	)
 	(junction
-		(at 100.33 66.04)
+		(at 147.32 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a1b39c8-b424-4516-8a5f-07f76a65141c")
 	)
 	(junction
-		(at 34.29 66.04)
+		(at 62.23 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb2aba1e-bea9-451f-a4c1-5f863da9653b")
 	)
 	(wire
 		(pts
-			(xy 125.73 71.12) (xy 125.73 82.55)
+			(xy 172.72 82.55) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1051,7 +988,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 66.04) (xy 50.8 66.04)
+			(xy 76.2 77.47) (xy 78.74 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +998,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 66.04) (xy 48.26 68.58)
+			(xy 76.2 77.47) (xy 76.2 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1071,17 +1008,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 50.8) (xy 58.42 60.96)
+			(xy 163.83 55.88) (xy 172.72 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e5a0b27-49be-4486-8210-2e8682c24031")
+		(uuid "23d1bc1e-336d-4509-8525-e82a9504bd89")
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 114.3 68.58)
+			(xy 161.29 77.47) (xy 161.29 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1091,27 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 36.83) (xy 58.42 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50655471-aecd-4519-8984-3512ebcee8e0")
-	)
-	(wire
-		(pts
-			(xy 125.73 22.86) (xy 125.73 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55724661-17c1-4976-a08a-5431d9a08fef")
-	)
-	(wire
-		(pts
-			(xy 46.99 66.04) (xy 48.26 66.04)
+			(xy 74.93 77.47) (xy 76.2 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1121,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 118.11 66.04)
+			(xy 161.29 77.47) (xy 165.1 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1131,7 +1048,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 66.04) (xy 100.33 66.04)
+			(xy 139.7 77.47) (xy 147.32 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 66.04) (xy 34.29 66.04)
+			(xy 54.61 77.47) (xy 62.23 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1151,7 +1068,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 66.04) (xy 102.87 66.04)
+			(xy 147.32 77.47) (xy 149.86 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 58.42 82.55)
+			(xy 86.36 82.55) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 66.04) (xy 39.37 66.04)
+			(xy 62.23 77.47) (xy 67.31 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1181,17 +1098,27 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 125.73 60.96)
+			(xy 172.72 55.88) (xy 172.72 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b692a592-0de2-43be-8ce2-705821ff3bf5")
+		(uuid "a6970051-5493-4f98-82a9-85037c3fcc48")
 	)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 114.3 82.55)
+			(xy 86.36 54.61) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61e7ca7-8357-43f1-8782-55f99fa53ac5")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.63) (xy 161.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1201,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 66.04) (xy 114.3 66.04)
+			(xy 157.48 77.47) (xy 161.29 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1211,17 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 22.86) (xy 58.42 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e53a41-773e-4ebe-8b8a-89d08b319fe3")
-	)
-	(wire
-		(pts
-			(xy 48.26 76.2) (xy 48.26 82.55)
+			(xy 76.2 87.63) (xy 76.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1229,19 +1146,9 @@
 		)
 		(uuid "f6f0a08c-a628-4fb9-b3e6-69c4f14b1873")
 	)
-	(wire
-		(pts
-			(xy 125.73 36.83) (xy 125.73 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd0ec484-d9ca-4787-a9f5-6ac58017d50c")
-	)
 	(hierarchical_label "4V"
 		(shape input)
-		(at 125.73 22.86 0)
+		(at 163.83 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1252,7 +1159,7 @@
 	)
 	(hierarchical_label "TIM14_CH1"
 		(shape input)
-		(at 92.71 66.04 180)
+		(at 139.7 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1263,7 +1170,7 @@
 	)
 	(hierarchical_label "TIM13_CH1"
 		(shape input)
-		(at 26.67 66.04 180)
+		(at 54.61 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,18 +1181,18 @@
 	)
 	(hierarchical_label "4V"
 		(shape input)
-		(at 58.42 22.86 180)
+		(at 86.36 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d82b9d5d-288e-4ec1-94fa-8f708d5c2be3")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 82.55 0)
+		(at 86.36 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1296,7 +1203,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a467b87-65db-416f-809e-23b2fd837efb")
 		(property "Reference" "#PWR013"
-			(at 58.42 88.9 0)
+			(at 86.36 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1307,7 +1214,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 87.63 0)
+			(at 86.36 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1317,7 +1224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 82.55 0)
+			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1328,7 +1235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 82.55 0)
+			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1339,7 +1246,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 82.55 0)
+			(at 86.36 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1363,7 +1270,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 123.19 66.04 0)
+		(at 170.18 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1374,7 +1281,7 @@
 		(fields_autoplaced yes)
 		(uuid "1857f8c9-ab89-4e65-8507-69bac87e2b3e")
 		(property "Reference" "Q2"
-			(at 129.54 64.7699 0)
+			(at 176.53 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1385,7 +1292,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 129.54 67.3099 0)
+			(at 176.53 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1396,7 +1303,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 128.27 67.945 0)
+			(at 175.26 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1409,7 +1316,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 128.27 69.85 0)
+			(at 175.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +1328,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 123.19 66.04 0)
+			(at 170.18 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1432,7 +1339,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 123.19 66.04 0)
+			(at 170.18 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1350,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 123.19 66.04 0)
+			(at 170.18 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1473,7 +1380,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 55.88 66.04 0)
+		(at 83.82 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1484,7 +1391,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dc228ed-0e25-4953-8687-55d1f87e0039")
 		(property "Reference" "Q1"
-			(at 62.23 64.7699 0)
+			(at 90.17 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1495,7 +1402,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 62.23 67.3099 0)
+			(at 90.17 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1506,7 +1413,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 60.96 67.945 0)
+			(at 88.9 79.375 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1519,7 +1426,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 60.96 69.85 0)
+			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1531,7 +1438,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 55.88 66.04 0)
+			(at 83.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1542,7 +1449,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 55.88 66.04 0)
+			(at 83.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1553,7 +1460,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 55.88 66.04 0)
+			(at 83.82 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1583,7 +1490,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:R0805")
-		(at 43.18 66.04 90)
+		(at 71.12 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1594,7 +1501,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fbc6d25-f8c4-4498-9789-d0e1ea8281c8")
 		(property "Reference" "R20"
-			(at 43.18 57.15 90)
+			(at 71.12 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1604,7 +1511,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 43.18 59.69 90)
+			(at 71.12 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1614,7 +1521,7 @@
 			)
 		)
 		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 56.896 66.04 0)
+			(at 84.836 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,7 +1532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 66.04 0)
+			(at 71.12 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1636,7 +1543,7 @@
 			)
 		)
 		(property "Description" "SMD resistor"
-			(at 54.864 65.786 0)
+			(at 82.804 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1554,7 @@
 			)
 		)
 		(property "Precision" "1%"
-			(at 43.18 62.23 90)
+			(at 71.12 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1657,7 +1564,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 43.18 66.04 90)
+			(at 71.12 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1668,7 +1575,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 43.18 66.04 90)
+			(at 71.12 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1695,7 +1602,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:R0805")
-		(at 106.68 66.04 90)
+		(at 153.67 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1706,7 +1613,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dfadb7f-7b3f-4bc5-8100-4a1f534cb0ef")
 		(property "Reference" "R32"
-			(at 106.68 57.15 90)
+			(at 153.67 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1716,7 +1623,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 106.68 59.69 90)
+			(at 153.67 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1726,7 +1633,7 @@
 			)
 		)
 		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 120.396 66.04 0)
+			(at 167.386 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1737,7 +1644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 66.04 0)
+			(at 153.67 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1748,7 +1655,7 @@
 			)
 		)
 		(property "Description" "SMD resistor"
-			(at 118.364 65.786 0)
+			(at 165.354 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1759,7 +1666,7 @@
 			)
 		)
 		(property "Precision" "1%"
-			(at 106.68 62.23 90)
+			(at 153.67 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1769,7 +1676,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 106.68 66.04 90)
+			(at 153.67 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1780,7 +1687,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 106.68 66.04 90)
+			(at 153.67 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +1714,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 34.29 66.04 180)
+		(at 62.23 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1817,7 +1724,7 @@
 		(dnp no)
 		(uuid "46d25850-1d1f-4035-8528-bbc092c344ef")
 		(property "Reference" "TP10"
-			(at 33.274 72.644 0)
+			(at 61.214 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1828,7 +1735,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 31.496 75.184 0)
+			(at 59.436 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1838,8 +1745,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 29.21 66.04 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 57.15 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 66.04 0)
+			(at 57.15 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1861,7 +1768,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 34.29 66.04 0)
+			(at 62.23 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,7 +1779,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 34.29 66.04 0)
+			(at 62.23 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,7 +1790,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 34.29 66.04 0)
+			(at 62.23 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1906,8 +1813,9 @@
 		)
 	)
 	(symbol
-		(lib_id "SCRB_STD_Passives:R0805")
-		(at 48.26 72.39 180)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 158.75 53.34 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1915,32 +1823,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6650c0c7-0f5c-46bb-8fc0-ea1a06802a2b")
-		(property "Reference" "R31"
-			(at 50.8 69.8499 0)
+		(uuid "5188c781-2904-49ee-a191-69fedcb36874")
+		(property "Reference" "J20"
+			(at 156.21 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 50.8 72.3899 0)
+		(property "Value" "Conn_01x02"
+			(at 156.21 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 48.26 58.674 0)
+		(property "Footprint" "SCRB_Connectors:JST-GH-SM04B-GHS-TB"
+			(at 158.75 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1951,7 +1858,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 72.39 0)
+			(at 158.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "936eec09-21fe-4b6c-b051-6144ff48bd1b")
+		)
+		(pin "1"
+			(uuid "294acea1-2521-42a3-bc3e-4f8cf7855218")
+		)
+		(instances
+			(project "PAYLOAD-URC"
+				(path "/536101af-7462-4550-960d-41c0e5530942/c13b28dc-ec4e-4c7c-8ee5-f1c3fa82b8e6"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCRB_STD_Passives:R0805")
+		(at 76.2 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6650c0c7-0f5c-46bb-8fc0-ea1a06802a2b")
+		(property "Reference" "R31"
+			(at 78.74 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 78.74 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Passives:R0805"
+			(at 76.2 70.104 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +1951,7 @@
 			)
 		)
 		(property "Description" "SMD resistor"
-			(at 48.006 60.706 0)
+			(at 75.946 72.136 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1973,7 +1962,7 @@
 			)
 		)
 		(property "Precision" "1%"
-			(at 50.8 74.9299 0)
+			(at 78.74 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1984,7 +1973,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 48.26 72.39 0)
+			(at 76.2 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1995,7 +1984,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 48.26 72.39 0)
+			(at 76.2 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,123 +2010,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SCRB_STD_Passives:R0805")
-		(at 125.73 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "689afdad-9e88-4e6c-ac13-50bb44c792a5")
-		(property "Reference" "R29"
-			(at 128.27 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10"
-			(at 128.27 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 125.73 19.304 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD resistor"
-			(at 125.476 21.336 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Precision" "1%"
-			(at 128.27 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 125.73 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 125.73 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9a441613-2ce5-4303-b4a5-b4a1f0ddacbf")
-		)
-		(pin "1"
-			(uuid "ce7ff039-0ed8-4111-9532-19d1656025ab")
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942/c13b28dc-ec4e-4c7c-8ee5-f1c3fa82b8e6"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 48.26 82.55 0)
+		(at 76.2 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2148,7 +2022,7 @@
 		(fields_autoplaced yes)
 		(uuid "960f9f53-ecd9-4cc3-adf1-1fac2c7f511d")
 		(property "Reference" "#PWR07"
-			(at 48.26 88.9 0)
+			(at 76.2 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2159,7 +2033,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 87.63 0)
+			(at 76.2 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2169,7 +2043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 82.55 0)
+			(at 76.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 82.55 0)
+			(at 76.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2191,7 +2065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 82.55 0)
+			(at 76.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2215,7 +2089,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:R0805")
-		(at 114.3 72.39 180)
+		(at 161.29 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2226,7 +2100,7 @@
 		(fields_autoplaced yes)
 		(uuid "98852dba-c3c8-4fba-b9d5-511eab12f1fe")
 		(property "Reference" "R30"
-			(at 116.84 69.8499 0)
+			(at 163.83 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2237,7 +2111,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 116.84 72.3899 0)
+			(at 163.83 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2248,7 +2122,7 @@
 			)
 		)
 		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 114.3 58.674 0)
+			(at 161.29 70.104 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2259,7 +2133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 72.39 0)
+			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2270,7 +2144,7 @@
 			)
 		)
 		(property "Description" "SMD resistor"
-			(at 114.046 60.706 0)
+			(at 161.036 72.136 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2281,7 +2155,7 @@
 			)
 		)
 		(property "Precision" "1%"
-			(at 116.84 74.9299 0)
+			(at 163.83 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2292,7 +2166,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 114.3 72.39 0)
+			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2303,7 +2177,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 114.3 72.39 0)
+			(at 161.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2330,7 +2204,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 82.55 0)
+		(at 172.72 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2341,7 +2215,7 @@
 		(fields_autoplaced yes)
 		(uuid "a003e0d2-0563-466e-b0f4-189b07b2ea82")
 		(property "Reference" "#PWR015"
-			(at 125.73 88.9 0)
+			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2352,7 +2226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 87.63 0)
+			(at 172.72 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2362,7 +2236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 82.55 0)
+			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2373,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 82.55 0)
+			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2384,7 +2258,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 82.55 0)
+			(at 172.72 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,7 +2282,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 82.55 0)
+		(at 161.29 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2419,7 +2293,7 @@
 		(fields_autoplaced yes)
 		(uuid "a369feb0-38cd-4535-a89a-2fd1d8343627")
 		(property "Reference" "#PWR09"
-			(at 114.3 88.9 0)
+			(at 161.29 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2430,7 +2304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 87.63 0)
+			(at 161.29 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2440,7 +2314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 82.55 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +2325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 82.55 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2462,7 +2336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 82.55 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2485,8 +2359,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 125.73 46.99 90)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 81.28 52.07 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2494,29 +2369,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a7714f9f-238d-4821-8e66-8999c8c6e90f")
-		(property "Reference" "D2"
-			(at 122.174 47.244 90)
+		(uuid "a96ec373-db8c-4cf9-8e2c-40a748344b71")
+		(property "Reference" "J19"
+			(at 78.74 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GD CSSRM3.14-AJAM-24-1-700-R33_445_nm"
-			(at 111.252 19.304 90)
+		(property "Value" "Conn_01x02"
+			(at 78.74 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XP"
-			(at 125.73 46.99 0)
+		(property "Footprint" "SCRB_Connectors:JST-GH-SM04B-GHS-TB"
+			(at 81.28 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,7 +2404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 46.99 0)
+			(at 81.28 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2537,41 +2414,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 125.73 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 125.73 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 125.73 46.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 125.73 46.99 90)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,130 +2426,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b220171f-c104-412b-8f5c-637a60f19494")
+			(uuid "cc137fcf-e5af-4d8b-b54e-61581c7fbc57")
 		)
 		(pin "1"
-			(uuid "ff4edcfd-ed5c-4c84-9a30-1fc64dde94e3")
+			(uuid "6244225f-eeff-4460-a15f-f8eb24f1e1ff")
 		)
 		(instances
 			(project "PAYLOAD-URC"
 				(path "/536101af-7462-4550-960d-41c0e5530942/c13b28dc-ec4e-4c7c-8ee5-f1c3fa82b8e6"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SCRB_STD_Passives:R0805")
-		(at 58.42 33.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6d458d5-2d18-42fa-a1ba-57afea4cc7d5")
-		(property "Reference" "R28"
-			(at 60.96 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10"
-			(at 60.96 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 58.42 19.304 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD resistor"
-			(at 58.166 21.336 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Precision" "1%"
-			(at 60.96 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 58.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 58.42 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f95dd2f4-076d-45df-93e4-b01cb3d4aff4")
-		)
-		(pin "1"
-			(uuid "60de27ec-dfc7-4d4e-9b8f-9b97dd829075")
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942/c13b28dc-ec4e-4c7c-8ee5-f1c3fa82b8e6"
-					(reference "R28")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -2713,7 +2442,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 100.33 66.04 180)
+		(at 147.32 77.47 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2723,7 +2452,7 @@
 		(dnp no)
 		(uuid "d8582f11-cf01-4bed-a099-d0708ed5e555")
 		(property "Reference" "TP12"
-			(at 98.806 72.39 0)
+			(at 145.796 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2734,7 +2463,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 97.282 74.422 0)
+			(at 144.272 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2744,8 +2473,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 95.25 66.04 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
+			(at 142.24 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2756,7 +2485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 66.04 0)
+			(at 142.24 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2767,7 +2496,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 100.33 66.04 0)
+			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2778,7 +2507,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 100.33 66.04 0)
+			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2518,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 100.33 66.04 0)
+			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2806,118 +2535,6 @@
 			(project "PAYLOAD-URC"
 				(path "/536101af-7462-4550-960d-41c0e5530942/c13b28dc-ec4e-4c7c-8ee5-f1c3fa82b8e6"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 58.42 46.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df191646-f174-49c0-a205-6727e14b3f95")
-		(property "Reference" "D1"
-			(at 54.102 47.244 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS178_LUXEON_UV_U_Line_405nm"
-			(at 38.862 19.558 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_Cree-XP"
-			(at 58.42 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 58.42 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 58.42 46.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 58.42 46.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f129f569-b16d-48bc-a3fc-010414f71564")
-		)
-		(pin "2"
-			(uuid "02cbb6e8-6aeb-4db7-8ee3-891d13104c78")
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942/c13b28dc-ec4e-4c7c-8ee5-f1c3fa82b8e6"
-					(reference "D1")
 					(unit 1)
 				)
 			)

@@ -1562,7 +1562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SCRB_Connectors:JST-GH-SM04B-GHS-TB"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 132.08 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2256,7 +2256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SCRB_Connectors:JST-GH-SM04B-GHS-TB"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 63.5 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2664,7 +2664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 95.25 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3176,7 +3176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 22.86 64.77 0)
 			(hide yes)
 			(show_name no)
