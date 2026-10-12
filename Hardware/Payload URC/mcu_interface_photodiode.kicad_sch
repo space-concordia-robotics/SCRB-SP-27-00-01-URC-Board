@@ -365,18 +365,6 @@
 		(uuid "723b2679-d843-4098-be27-f7c702005878")
 	)
 	(junction
-		(at 180.34 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8afba2ae-cbc3-409e-ac7c-9b4e43dd7bfb")
-	)
-	(junction
-		(at 179.07 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91ba15f3-8c64-40f5-b7d5-26fa0c71222a")
-	)
-	(junction
 		(at 167.64 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -510,16 +498,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 179.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89703b75-76d4-47ec-8fe9-15274149a441")
-	)
-	(wire
-		(pts
 			(xy 113.03 93.98) (xy 113.03 74.93)
 		)
 		(stroke
@@ -540,7 +518,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 120.65) (xy 195.58 120.65)
+			(xy 167.64 120.65) (xy 195.58 120.65)
 		)
 		(stroke
 			(width 0)
@@ -560,17 +538,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 120.65) (xy 180.34 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc0d5165-6e56-40d1-9736-1fa120fed0ea")
-	)
-	(wire
-		(pts
-			(xy 179.07 99.06) (xy 195.58 99.06)
+			(xy 154.94 99.06) (xy 195.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -704,208 +672,6 @@
 			(justify left)
 		)
 		(uuid "c3ea91cd-021d-4068-acbf-093a3dec5e27")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 179.07 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17c78fc7-da0c-450f-bd82-471b9713a6f6")
-		(property "Reference" "TP19"
-			(at 181.61 94.4879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 181.61 97.0279 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 184.15 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 179.07 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 179.07 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 179.07 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9866497-1cf2-4ef2-a599-27a7e474ada0")
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942/9a6c10bf-5646-4c92-a04d-732f7f68979e"
-					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 180.34 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24e996e4-0116-4c4f-bad2-4411c2c81ca6")
-		(property "Reference" "TP20"
-			(at 182.88 116.0779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 182.88 118.6179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 185.42 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 180.34 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 180.34 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 180.34 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86099838-6f1a-4900-8d8d-d6928a1ddfd2")
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942/9a6c10bf-5646-4c92-a04d-732f7f68979e"
-					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:R0805")

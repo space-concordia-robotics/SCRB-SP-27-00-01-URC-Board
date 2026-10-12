@@ -286,7 +286,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_Haptic:DRV2605LDGS"
+		(symbol "Driver:DRV2605LDGS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -314,7 +314,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
+			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -337,7 +337,7 @@
 					)
 				)
 			)
-			(property "Description" "Haptic driver for LRAs and ERMs with effect library, 2-5.2V, VSSOP-10"
+			(property "Description" "Haptic driver for LRAs and ERMs with effect library, 2-5.2V, TSSOP-10 (Texas DGS0010A / VSSOP)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -359,7 +359,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "VSSOP*3x3mm*P0.5mm*"
+			(property "ki_fp_filters" "*TSSOP*3x3mm?P0.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -922,22 +922,10 @@
 		(uuid "ef35014e-6fc7-41c6-9a42-5e3000a74739")
 	)
 	(junction
-		(at 33.02 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c50f4a7-fe51-4d0a-b439-f9f909d7716e")
-	)
-	(junction
 		(at 33.02 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a02c63d7-9ac6-44ef-afa2-ab266fb5021e")
-	)
-	(junction
-		(at 33.02 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2853b4b-48eb-46ea-a731-6f00fc03e370")
 	)
 	(junction
 		(at 73.66 38.1)
@@ -1040,7 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 58.42) (xy 33.02 58.42)
+			(xy 30.48 58.42) (xy 60.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1057,16 +1045,6 @@
 			(type default)
 		)
 		(uuid "6da704ef-0786-462f-aba9-479701b23b5a")
-	)
-	(wire
-		(pts
-			(xy 33.02 58.42) (xy 60.96 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b36f66d-6591-4729-aa88-9e7d93600fe3")
 	)
 	(wire
 		(pts
@@ -1150,16 +1128,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 68.58) (xy 33.02 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce810dc7-c1b1-4c40-ad43-351211d65f81")
-	)
-	(wire
-		(pts
 			(xy 102.87 38.1) (xy 99.06 38.1)
 		)
 		(stroke
@@ -1190,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 68.58) (xy 60.96 68.58)
+			(xy 31.75 68.58) (xy 60.96 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1241,6 +1209,113 @@
 			(justify right)
 		)
 		(uuid "d36d0f03-6c52-4759-8190-874f90c14be8")
+	)
+	(symbol
+		(lib_id "Driver:DRV2605LDGS")
+		(at 73.66 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1128bec2-63d7-4114-ac1e-88f43d8d4b24")
+		(property "Reference" "U1"
+			(at 75.8033 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV2605LDGS"
+			(at 75.8033 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 73.66 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv2605l.pdf"
+			(at 73.66 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Haptic driver for LRAs and ERMs with effect library, 2-5.2V, TSSOP-10 (Texas DGS0010A / VSSOP)"
+			(at 73.66 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "387025e2-bf2f-477d-819b-073cdbde265c")
+		)
+		(pin "1"
+			(uuid "8704bc15-9d3b-44e4-a179-eb887b6c8409")
+		)
+		(pin "6"
+			(uuid "eb143b96-bcf7-48df-a6a1-f8274546bf5e")
+		)
+		(pin "4"
+			(uuid "338c9048-c192-4626-9511-0d7c496d76d7")
+		)
+		(pin "5"
+			(uuid "9373c3bf-d556-4fd5-8107-3cff32d122e4")
+		)
+		(pin "9"
+			(uuid "fe54ca01-a1f5-412c-b98c-383382aa601c")
+		)
+		(pin "10"
+			(uuid "5272b2f0-4138-4c52-b21c-a0991b7818a1")
+		)
+		(pin "3"
+			(uuid "325be1f7-e484-41ad-969c-bf9baa78bbe8")
+		)
+		(pin "8"
+			(uuid "cb670679-564b-4698-afd3-d7e32d613bbc")
+		)
+		(pin "7"
+			(uuid "5106394e-0a64-4e57-babf-37172c9812c5")
+		)
+		(instances
+			(project "PAYLOAD-URC"
+				(path "/536101af-7462-4550-960d-41c0e5530942/d53a3fe0-cf14-46e5-83f4-5974ff42168d/64a16d29-9a09-4ff1-9e24-46115c76655c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1771,235 +1846,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 33.02 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc30def9-18b6-49ff-b2e1-6f7e1c61e4f9")
-		(property "Reference" "TP37"
-			(at 35.56 64.0079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 35.56 66.5479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 38.1 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 33.02 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 33.02 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 33.02 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb6a5943-bb81-4860-bb20-5b57f9087ffd")
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942/d53a3fe0-cf14-46e5-83f4-5974ff42168d/64a16d29-9a09-4ff1-9e24-46115c76655c"
-					(reference "TP37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_Haptic:DRV2605LDGS")
-		(at 73.66 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf060fb5-6b3d-4026-8909-594ec85149a8")
-		(property "Reference" "U2"
-			(at 69.342 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DRV2605LDGS"
-			(at 58.42 29.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
-			(at 73.66 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv2605l.pdf"
-			(at 73.66 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Haptic driver for LRAs and ERMs with effect library, 2-5.2V, VSSOP-10"
-			(at 73.66 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 73.66 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 73.66 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a6b2ed3a-0c36-4e76-bf78-c1618258122b")
-		)
-		(pin "7"
-			(uuid "431ee2ad-910b-44a4-9666-a3109bde2a24")
-		)
-		(pin "9"
-			(uuid "95d35472-723a-459a-9e29-434bf16cf3d8")
-		)
-		(pin "5"
-			(uuid "b4a66a80-b1cf-4d78-a5ab-ef1b46218159")
-		)
-		(pin "1"
-			(uuid "93e43ee8-cf2a-4ed8-87fa-c997efa40553")
-		)
-		(pin "2"
-			(uuid "dbdc9919-df39-4fcb-8519-aed4341886df")
-		)
-		(pin "4"
-			(uuid "81a77778-dcdf-4993-bffd-c2905bca53a7")
-		)
-		(pin "8"
-			(uuid "e55cac10-a35e-4901-a344-ff2b85c40046")
-		)
-		(pin "10"
-			(uuid "872fb43f-6c22-46fa-8912-7febf28356e5")
-		)
-		(pin "6"
-			(uuid "203acafa-005a-4db1-b1a7-6f74ca168f6b")
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942/d53a3fe0-cf14-46e5-83f4-5974ff42168d/64a16d29-9a09-4ff1-9e24-46115c76655c"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SCRB_STD_Passives:C0805")
 		(at 95.25 38.1 270)
 		(mirror x)
@@ -2213,107 +2059,6 @@
 			(project "PAYLOAD-URC"
 				(path "/536101af-7462-4550-960d-41c0e5530942/d53a3fe0-cf14-46e5-83f4-5974ff42168d/64a16d29-9a09-4ff1-9e24-46115c76655c"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 33.02 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f38f3b7b-2f39-466f-bd30-a58d7391e7ab")
-		(property "Reference" "TP36"
-			(at 35.56 53.8479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 35.56 56.3879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 38.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 33.02 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 33.02 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 33.02 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "290bb7f4-960c-4b83-9ccb-c7955d72c807")
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942/d53a3fe0-cf14-46e5-83f4-5974ff42168d/64a16d29-9a09-4ff1-9e24-46115c76655c"
-					(reference "TP36")
 					(unit 1)
 				)
 			)

@@ -3458,7 +3458,7 @@
 	)
 	(text "Communication to \nmain board's STM32"
 		(exclude_from_sim no)
-		(at 239.014 114.554 0)
+		(at 435.61 99.568 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3703,6 +3703,12 @@
 		(uuid "643e5d70-0640-4db0-97e0-3823b6fdd335")
 	)
 	(junction
+		(at 163.83 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6512f776-77d6-49f0-baf9-11667ae91fc4")
+	)
+	(junction
 		(at 163.83 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3733,7 +3739,7 @@
 		(uuid "c72c8651-a5c5-43ba-bb7e-fd08d3531d33")
 	)
 	(junction
-		(at 266.7 110.49)
+		(at 427.99 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf7afdd5-702b-40b9-b677-69e130aa4ae0")
@@ -3745,13 +3751,13 @@
 		(uuid "d3a82f35-12a8-4bf6-98de-700425be5bc6")
 	)
 	(junction
-		(at 261.62 120.65)
+		(at 422.91 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d68946e6-6c7a-46a8-a80d-77de8621a905")
 	)
 	(junction
-		(at 270.51 120.65)
+		(at 431.8 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d914d9a7-30fb-4d09-bb75-96230d2c735c")
@@ -3813,16 +3819,6 @@
 			(type default)
 		)
 		(uuid "0a48906c-321c-420f-98a9-80c20db8cc42")
-	)
-	(wire
-		(pts
-			(xy 215.9 121.92) (xy 217.17 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb951fa-08c9-496c-8bde-24ae0b8ca191")
 	)
 	(wire
 		(pts
@@ -3946,23 +3942,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 110.49) (xy 261.62 110.49)
+			(xy 427.99 107.95) (xy 422.91 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32dbee9f-d82a-4cc1-8903-b82f20f9985f")
-	)
-	(wire
-		(pts
-			(xy 274.32 123.19) (xy 251.46 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "363a40e0-eb04-47bb-9779-89fb3b8db0b0")
 	)
 	(wire
 		(pts
@@ -3976,7 +3962,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 110.49) (xy 266.7 107.95)
+			(xy 427.99 107.95) (xy 427.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4096,6 +4082,26 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 120.65) (xy 435.61 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6271453f-d84e-4855-9bf4-469d395529c4")
+	)
+	(wire
+		(pts
+			(xy 163.83 151.13) (xy 163.83 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653f064f-cd23-4ba5-9d9e-5934ffba5abe")
+	)
+	(wire
+		(pts
 			(xy 234.95 196.85) (xy 234.95 189.23)
 		)
 		(stroke
@@ -4156,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 120.65) (xy 261.62 120.65)
+			(xy 431.8 118.11) (xy 422.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4216,6 +4222,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 139.7) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba57caf-5c70-4900-baca-81ac01becbc8")
+	)
+	(wire
+		(pts
 			(xy 97.79 139.7) (xy 97.79 142.24)
 		)
 		(stroke
@@ -4236,7 +4252,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 118.11) (xy 261.62 120.65)
+			(xy 422.91 115.57) (xy 422.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4256,7 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 120.65) (xy 270.51 120.65)
+			(xy 435.61 118.11) (xy 431.8 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4326,23 +4342,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 118.11) (xy 270.51 120.65)
+			(xy 431.8 115.57) (xy 431.8 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a508ed2e-3281-4d3d-bcb5-0b02f952e068")
-	)
-	(wire
-		(pts
-			(xy 261.62 120.65) (xy 251.46 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae52515b-ec07-43ef-8f8b-e07355215b89")
 	)
 	(wire
 		(pts
@@ -4456,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 110.49) (xy 266.7 110.49)
+			(xy 431.8 107.95) (xy 427.99 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4502,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 139.7) (xy 173.99 139.7)
+			(xy 410.21 118.11) (xy 422.91 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0269cf0-bb1a-439d-835c-b7ecf2977abc")
+	)
+	(wire
+		(pts
+			(xy 146.05 139.7) (xy 163.83 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4543,6 +4559,16 @@
 			(type default)
 		)
 		(uuid "d7c19dfd-c755-437a-833a-4fa2c6a1d9bb")
+	)
+	(wire
+		(pts
+			(xy 163.83 139.7) (xy 173.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b83966-b0eb-40d8-9aa1-0bc4a267050f")
 	)
 	(wire
 		(pts
@@ -4785,7 +4811,7 @@
 		(uuid "117ec16d-a29f-47ff-8aa9-a3cc487c3488")
 	)
 	(label "5V"
-		(at 266.7 107.95 180)
+		(at 427.99 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4975,7 +5001,7 @@
 		(uuid "67e752cb-8eef-4d6d-9490-9c664234d674")
 	)
 	(label "UART4_RX"
-		(at 274.32 123.19 0)
+		(at 435.61 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5095,12 +5121,12 @@
 		(uuid "bbb4ea27-0fc8-4113-832a-d325842f471c")
 	)
 	(label "5V"
-		(at 215.9 121.92 180)
+		(at 410.21 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bd31535e-2fa9-41f5-9d59-3e28a1a782c0")
 	)
@@ -5185,7 +5211,7 @@
 		(uuid "dea13510-61d1-468c-bb9d-791c12b7e6b9")
 	)
 	(label "UART4_TX"
-		(at 274.32 120.65 0)
+		(at 435.61 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5492,6 +5518,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/Molex"
+			(at 64.77 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e947f1ca-7507-4edb-ad4f-c70ef875f700")
 		)
@@ -5703,7 +5740,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 215.9 318.77 0)
+		(at 200.66 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5714,7 +5751,7 @@
 		(fields_autoplaced yes)
 		(uuid "3038f238-36aa-4485-844c-ad4a31513ecc")
 		(property "Reference" "H3"
-			(at 218.44 317.4999 0)
+			(at 203.2 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5724,8 +5761,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 218.44 320.0399 0)
+		(property "Value" "MH2.5"
+			(at 203.2 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5736,7 +5773,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 215.9 318.77 0)
+			(at 200.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5747,7 +5784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 318.77 0)
+			(at 200.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5758,7 +5795,18 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 215.9 318.77 0)
+			(at 200.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 200.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5984,7 +6032,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 215.9 312.42 0)
+		(at 532.13 260.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5995,7 +6043,7 @@
 		(fields_autoplaced yes)
 		(uuid "39ab71a0-4e21-4866-9f79-ecffcddc870d")
 		(property "Reference" "H2"
-			(at 218.44 311.1499 0)
+			(at 534.67 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6005,8 +6053,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 218.44 313.6899 0)
+		(property "Value" "MH2.5"
+			(at 534.67 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6017,7 +6065,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 215.9 312.42 0)
+			(at 532.13 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,7 +6076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 312.42 0)
+			(at 532.13 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +6087,18 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 215.9 312.42 0)
+			(at 532.13 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 532.13 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6060,7 +6119,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:R0805")
-		(at 261.62 114.3 0)
+		(at 422.91 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6072,7 +6131,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a53a80c-888c-4124-89c8-0022ba783e41")
 		(property "Reference" "R11"
-			(at 259.08 111.7599 0)
+			(at 420.37 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6083,7 +6142,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 259.08 114.2999 0)
+			(at 420.37 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6094,7 +6153,7 @@
 			)
 		)
 		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 261.62 128.016 0)
+			(at 422.91 125.476 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6105,7 +6164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 114.3 0)
+			(at 422.91 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6116,7 +6175,7 @@
 			)
 		)
 		(property "Description" "SMD resistor"
-			(at 261.366 125.984 0)
+			(at 422.656 123.444 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,7 +6186,7 @@
 			)
 		)
 		(property "Precision" "1%"
-			(at 259.08 116.8399 0)
+			(at 420.37 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6138,7 +6197,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 261.62 114.3 0)
+			(at 422.91 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +6208,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 261.62 114.3 0)
+			(at 422.91 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,6 +6388,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 116.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 116.84 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7048,6 +7118,88 @@
 			(project "PAYLOAD-URC"
 				(path "/536101af-7462-4550-960d-41c0e5530942"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SCRB_STD_Actives:TVS_SOD523")
+		(at 163.83 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bebd299-e395-448f-b7eb-3f0c68b6068e")
+		(property "Reference" "D4"
+			(at 166.37 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TVS_SOD523"
+			(at 166.37 148.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SCRB_STD_Actives:SOD-523"
+			(at 170.434 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD Bidirectional TVS"
+			(at 168.402 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d564d557-35d6-4d2c-8b87-ccbafee55c83")
+		)
+		(pin "2"
+			(uuid "bb549fd6-012a-40a6-ab24-c35b5f839731")
+		)
+		(instances
+			(project "PAYLOAD-URC"
+				(path "/536101af-7462-4550-960d-41c0e5530942"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8328,7 +8480,7 @@
 	)
 	(symbol
 		(lib_id "SCRB_STD_Passives:R0805")
-		(at 270.51 114.3 0)
+		(at 431.8 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8340,7 +8492,7 @@
 		(fields_autoplaced yes)
 		(uuid "b50fbc37-3d75-4d05-9a26-e13367553526")
 		(property "Reference" "R8"
-			(at 267.97 111.7599 0)
+			(at 429.26 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8351,7 +8503,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 267.97 114.2999 0)
+			(at 429.26 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8362,7 +8514,7 @@
 			)
 		)
 		(property "Footprint" "SCRB_STD_Passives:R0805"
-			(at 270.51 128.016 0)
+			(at 431.8 125.476 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8373,7 +8525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 114.3 0)
+			(at 431.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8536,7 @@
 			)
 		)
 		(property "Description" "SMD resistor"
-			(at 270.256 125.984 0)
+			(at 431.546 123.444 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8547,7 @@
 			)
 		)
 		(property "Precision" "1%"
-			(at 267.97 116.8399 0)
+			(at 429.26 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8406,7 +8558,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 270.51 114.3 0)
+			(at 431.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8417,7 +8569,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 270.51 114.3 0)
+			(at 431.8 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9199,7 +9351,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 215.9 323.85 0)
+		(at 198.12 259.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9210,7 +9362,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbafcf01-3337-4bfd-a336-31c876775b28")
 		(property "Reference" "H4"
-			(at 218.44 322.5799 0)
+			(at 200.66 257.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9220,8 +9372,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 218.44 325.1199 0)
+		(property "Value" "MH2.5"
+			(at 200.66 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9232,7 +9384,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 215.9 323.85 0)
+			(at 198.12 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9243,7 +9395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 323.85 0)
+			(at 198.12 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9254,7 +9406,18 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 215.9 323.85 0)
+			(at 198.12 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 198.12 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9531,6 +9694,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 116.84 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "3cf91353-5426-4899-b543-663b1f4b9a73")
 		)
@@ -9550,6 +9724,84 @@
 			(project "PAYLOAD-URC"
 				(path "/536101af-7462-4550-960d-41c0e5530942"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e76eb2ab-3d20-4a18-befe-76c6dbbc047e")
+		(property "Reference" "#PWR033"
+			(at 163.83 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaa9b221-1f38-43e2-914c-c0135607c7ef")
+		)
+		(instances
+			(project "PAYLOAD-URC"
+				(path "/536101af-7462-4550-960d-41c0e5530942"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10000,7 +10252,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 215.9 307.34 0)
+		(at 533.4 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10011,7 +10263,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9d6a8e1-9e96-47e0-9a8c-bae35a31baaa")
 		(property "Reference" "H1"
-			(at 218.44 306.0699 0)
+			(at 535.94 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10021,8 +10273,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 218.44 308.6099 0)
+		(property "Value" "MH2.5"
+			(at 535.94 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10033,7 +10285,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopBottom"
-			(at 215.9 307.34 0)
+			(at 533.4 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10044,7 +10296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 307.34 0)
+			(at 533.4 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10055,7 +10307,18 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 215.9 307.34 0)
+			(at 533.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 533.4 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10131,6 +10394,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/Molex"
 			(at 66.04 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10681,7 +10955,7 @@
 	)
 	(sheet
 		(at 387.35 106.68)
-		(size 22.86 12.7)
+		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10707,7 +10981,7 @@
 			)
 		)
 		(property "Sheetfile" "esd.kicad_sch"
-			(at 387.35 119.9646 0)
+			(at 387.35 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10760,6 +11034,36 @@
 		(pin "3V3" input
 			(at 410.21 110.49 0)
 			(uuid "3db20885-5f0b-443a-b03d-b357acc35121")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" input
+			(at 410.21 115.57 0)
+			(uuid "3b5cd11f-8917-4a6d-8a28-2368c653c2f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART6_RX" input
+			(at 410.21 120.65 0)
+			(uuid "ebc49dcd-f182-4ac3-8faa-25ff56f60472")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART6_TX" input
+			(at 410.21 118.11 0)
+			(uuid "fb63c816-e869-402f-87e8-73791ee1b946")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,81 +11236,6 @@
 			(project "PAYLOAD-URC"
 				(path "/536101af-7462-4550-960d-41c0e5530942"
 					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 217.17 119.38)
-		(size 34.29 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "dbf6b210-0dcb-4918-8c6d-c20ab201f667")
-		(property "Sheetname" "MCU_communication"
-			(at 216.662 118.618 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Main_Board_Communication.kicad_sch"
-			(at 216.916 125.476 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USART6_RX" input
-			(at 251.46 123.19 0)
-			(uuid "e6886849-487b-43f0-9be8-c82918850b48")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USART6_TX" input
-			(at 251.46 120.65 0)
-			(uuid "3d1ce0f1-e1b5-4e3b-a2f2-4a02a68e2ea5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 217.17 121.92 180)
-			(uuid "7f36dcb6-ba90-4b26-83db-bf6d8edf4444")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "PAYLOAD-URC"
-				(path "/536101af-7462-4550-960d-41c0e5530942"
-					(page "6")
 				)
 			)
 		)

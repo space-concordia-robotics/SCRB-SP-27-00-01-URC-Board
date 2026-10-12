@@ -1617,6 +1617,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/JST"
+			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8856d23d-3cf3-4934-994f-fd18a6df9954")
 		)
@@ -1911,6 +1922,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 140.97 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e86b220-9496-4508-8827-5805adf14768")
 		)
@@ -2006,6 +2028,17 @@
 		)
 		(property "KLC_S4.1" ""
 			(at 72.39 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 72.39 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2301,6 +2334,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/JST"
 			(at 63.5 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2937,6 +2981,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 52.07 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "08a1b237-3dc6-4b36-856c-01e929637817")
 		)
@@ -3115,6 +3170,17 @@
 			)
 		)
 		(property "KLC_S4.1" ""
+			(at 120.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 120.65 62.23 0)
 			(hide yes)
 			(show_name no)

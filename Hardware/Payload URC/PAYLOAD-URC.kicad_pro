@@ -152,15 +152,15 @@
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
-        "min_microvia_diameter": 0.0,
+        "min_microvia_diameter": 3.0,
         "min_microvia_drill": 0.0,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.4,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.0,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -210,6 +210,7 @@
         }
       ],
       "track_widths": [
+        0.0,
         0.0,
         0.09,
         0.127,
@@ -807,7 +808,7 @@
         "uuid": "536101af-7462-4550-960d-41c0e5530942"
       }
     ],
-    "used_designators": "H1-4,SW2,D3,C1-26,#PWR4-6,#PWR19-22,#PWR25,#PWR28,#PWR37-45,#PWR48-51,#FLG2-3,#FLG8-9,U1,U4,U6,U9-12,Y1,J1,J4,J6-21,LD1-4,R1-14,R17,R20-21,R24,R28-47",
+    "used_designators": "H1-4,SW2,D3-4,C1-26,#PWR4-6,#PWR19-22,#PWR25,#PWR28,#PWR33-45,#PWR48-51,#FLG2-3,#FLG8-9,U1-2,U4,U6,U9-12,Y1,J1,J4,J6-21,LD1-4,R1-14,R17,R20-22,R24,R28-47",
     "variants": []
   },
   "sheets": [
@@ -830,10 +831,6 @@
     [
       "796d5f69-f864-4dcf-b109-3b555448812c",
       "LEDs_Yellow_Red"
-    ],
-    [
-      "dbf6b210-0dcb-4918-8c6d-c20ab201f667",
-      "MCU_communication"
     ],
     [
       "64a16d29-9a09-4ff1-9e24-46115c76655c",

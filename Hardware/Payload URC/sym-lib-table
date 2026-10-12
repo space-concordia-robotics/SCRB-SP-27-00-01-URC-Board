@@ -9,4 +9,5 @@
 	(lib (name "SCRB_STD_Actives") (type "KiCad") (uri "/Users/saski/Documents/Engineering/School/School clubs/SPACE CONCORDIA/Libraries-main/SCRB_STD_Actives/SCRB_STD_Actives.kicad_sym") (options "") (descr ""))
 	(lib (name "SCRB_STD_Passives") (type "KiCad") (uri "/Users/saski/Documents/Engineering/School/School clubs/SPACE CONCORDIA/Libraries-main/SCRB_STD_Passives/SCRB_STD_Passives.kicad_sym") (options "") (descr ""))
 	(lib (name "SCRB_TexasInstruments") (type "KiCad") (uri "/Users/saski/Documents/Engineering/School/School clubs/SPACE CONCORDIA/Libraries-main/SCRB_TexasInstruments/SCRB_TexasInstruments.kicad_sym") (options "") (descr ""))
+	(lib (name "DRV2605LDGST") (type "KiCad") (uri "${KIPRJMOD}/Library/DRV2605LDGST/DRV2605LDGST.kicad_sym") (options "") (descr ""))
 )
